@@ -1,0 +1,3 @@
+rootProject.name = 'Router_flux'
+
+include ':app'

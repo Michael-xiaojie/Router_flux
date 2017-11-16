@@ -1,0 +1,33 @@
+import React, { Component } from 'react';
+import {
+  StyleSheet,
+  Text,
+  View
+} from 'react-native';
+import { Actions } from 'react-native-router-flux'; // New code
+
+const index4 = () => {
+  return (
+    <View style={styles.container}>
+      <Text style={styles.welcome}  >
+        设置
+      </Text>
+    </View>
+  );
+}
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+    backgroundColor:'white'
+  },
+  welcome: {
+    fontSize: 20,
+    textAlign: 'center',
+    margin: 10,
+  },
+});
+
+export default index4
